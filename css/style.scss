@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #111;
+	overflow-x: hidden;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	div {
+		position: relative;
+		margin: 0.8rem;
+		span {
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 0.7rem;
+			left: 50%;
+			top: 90%;
+			transform: translate(-50%, -50%);
+			font-family: monospace;
+			font-variant-numeric: tabular-nums;
+			user-select: none;
+			pointer-events: none;
+		}
+	}
+}
